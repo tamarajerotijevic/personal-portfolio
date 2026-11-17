@@ -43,7 +43,7 @@ export const Hero = () => {
           <div
             className="absolute h-1.5 w-1.5 rounded-full opacity-60"
             style={{
-              backgroundColor: "#20B2A6",
+              backgroundColor: "#A855F7",
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
               animation: `slow-drift ${15 + Math.random() * 20}s ease-in-out infinite`,
@@ -58,7 +58,7 @@ export const Hero = () => {
           {/*Left column*-Text Content*/}
           <div className="space-y-8">
             <div className="animate-fade-in">
-              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
+              <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-secondary-foreground">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                 Software Engineer • React Specialist
               </span>
